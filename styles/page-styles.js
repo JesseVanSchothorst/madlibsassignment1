@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 		borderColor: 'black',
 		borderRadius: 5,
 		padding: 10,
-		fontSize: 16,
+		fontSize: 20,
     },
 	instructions: {
 		fontSize: 20,

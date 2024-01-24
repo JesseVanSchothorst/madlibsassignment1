@@ -39,10 +39,14 @@ export default function Page() {
 		<View style={Styles.madlibStory}>			  
 				{/* Comment: Story Text */}
 			  <Text style={ Styles.storyText }>
-				Your Name is { name }!{'\n'}{'\n'}
-				You { verb } to the store to get{'\n'}{'\n'}
-				your favorite food { food }
+				Your Name is { name }!
 			  </Text>
+			  <Text style={ Styles.storyText }>
+			  You { verb } to the store to get
+			  </Text>
+			  <Text style={ Styles.storyText }>
+			  your favorite food { food }
+			  </Text> 
 		</View>	
   
 	  <Text  style={ Styles.madLibsText }>
